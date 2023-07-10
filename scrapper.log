@@ -5386,3 +5386,20 @@ INFO:root:log my final result []
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "POST /review HTTP/1.1" 200 -
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.18:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [10/Jul/2023 20:42:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [10/Jul/2023 20:42:49] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [10/Jul/2023 20:42:49] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [10/Jul/2023 20:42:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'rugs', 'Name': 'Flipkart Customer', 'Rating': '4', 'CommentHead': 'Worth the money', 'Comment': 'Size is good but very thin like bedsheet. Looking wise good.'}, {'Product': 'rugs', 'Name': 'hiral modi', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': 'Love it'}, {'Product': 'rugs', 'Name': 'Leo Vinson', 'Rating': '3', 'CommentHead': 'Good', 'Comment': 'Looks and feels like a Bedsheet.. Average Material'}, {'Product': 'rugs', 'Name': 'B Vinod  Kumar', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Nice'}, {'Product': 'rugs', 'Name': 'Syed Naaz', 'Rating': '1', 'CommentHead': 'Waste of money!', 'Comment': "Material is too thin please don't buy just a waste 😔"}, {'Product': 'rugs', 'Name': 'Hema Chelani', 'Rating': '3', 'CommentHead': 'Fair', 'Comment': 'look wise good bt quality is ok.. rough material...good one according to the price'}, {'Product': 'rugs', 'Name': 'Flipkart Customer', 'Rating': '4', 'CommentHead': 'Really Nice', 'Comment': 'A little rough, but good product'}, {'Product': 'rugs', 'Name': 'Flipkart Customer', 'Rating': '4', 'CommentHead': 'Wonderful', 'Comment': 'Nice value for moneyI love this product 😘😊'}, {'Product': 'rugs', 'Name': 'Kalai Murugan', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'Best in price'}, {'Product': 'rugs', 'Name': 'Hetal Patel', 'Rating': '4', 'CommentHead': 'Worth the money', 'Comment': 'Good'}, {'Product': 'rugs', 'Name': 'Hetal Patel', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Good'}]
+INFO:werkzeug:172.18.0.2 - - [10/Jul/2023 20:42:59] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [10/Jul/2023 20:42:59] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [10/Jul/2023 20:42:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
